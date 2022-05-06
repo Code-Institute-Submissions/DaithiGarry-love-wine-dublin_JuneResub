@@ -106,3 +106,27 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+Purpose of this project:
+The Purpose of this project is to offer a plaform for the people of Dublin to share their love of wine. To interact with people of similiar interest and share you stories, love and interest in wine. Furthermore, this platform should also be a place to share photos and bring people together through wine related events.
+
+User stories:
+The people of Dublin have showed a growing interest in attending wine tasting events and exploring wine culture in dublin, suggesting that from a business perspective the return on investment in this area is a less risky endeavour. However, we need to acknowledge that the user numbers in Dublin (and the surrounding areas) is a small population. However, this population is growing and first market mover position, with a good user product, could lead to a high percentage of interested user using our website. 
+
+The primary use of the website, from a user perspective, will be a focal point to link people via wine tasting events. The website should be a clean, single page website, where users can find out about upcoming events to meet like-minded individual in the fewest clicks possible.
+
+Features:
+Clean, attractive, single page website where the wine lovers of Dublin will sign up for future wine tasting (or wine related) events. Interested parties can send in event photos graphs, which can be uploaded to the website gallery. These phots can then be shared on our social media pages (facebook, twitter and instagram). Additionally, wine tasting master-class events, where experts dessimate their knowledge on a specific wine or practice will be uploaded to our youtube channel.
+
+Future features:
+Have a live twitter feed in the side bar of the page to let viewer connect with each other via twitter: in addtion to, be able to analyse our user engagement on twitter.
+
+Add a blog page on the web site to provide our users with expert information on wine tasking, wine making and other wine practices.
+
+Add a merchandise page to provide our user with wine based merchandise.
+
+Typography and color:
+Wine base reds and purple tones with clear text ()
+
+Wireframes:
+
