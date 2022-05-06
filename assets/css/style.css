@@ -136,7 +136,7 @@ h1, h2 {
 
 #social-text {
     height: 200px;
-    width: 100%
+    width: 100%;
     overflow: hidden;
     position: relative;
     background-color: linear-gradient (red, black);
@@ -161,4 +161,25 @@ h1, h2 {
 
 #photos > img {
     width: 100%;
+}
+
+#recent-events {
+    height: 1025px;
+    weight: 100%;
+    overflow: hidden;
+    position: relative;
+ 
+    padding-top: 2%;
+    margin: 0;
+   
+}
+
+#recent-events > h2 {
+    font-family: Oswald, sans-serif;
+    margin-left: 30px;
+    padding-top: 1%;
+    margin: 1%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;   
 }
