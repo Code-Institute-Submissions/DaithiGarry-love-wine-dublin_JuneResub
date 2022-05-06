@@ -219,8 +219,20 @@ h1, h2 {
         margin: 1%;
         text-transform: uppercase;
         letter-spacing: 4px;
-        color: #252525; 
+        color: inherit; 
+    }
+
+    hr {
+        border: 2px solid black;
+    
     }
     
+    img.flag {
+        height: 50%;
+        width: 100%;
+        float: bottom;
+        position: center;
+        
 
+    }
 }
