@@ -9,20 +9,40 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Love Wine Dublin</title>
-
+</head>
     <!-- form document -->
+    <body>
+        <header>
+            <a href="index.html">
+                <h1 id="logo">Dublin Wine Lovers <i class="fa-solid fa-wine-glass"></i></h1>
+            </a>
+            <nav>
+                <ul id="menu">
+                    
+                    <li>
+                        <a href="#upcoming-events">Events</a>
+                    </li>
+                    <li>
+                        <a href="#recent-events">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="active"></a>Home</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
     <form>
         <section class="form-section">
-            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-              <h2>Let's get you signed up!</h2>
+            <form method="POST" class="signup-form" action="https://formdump.codeinstitute.net/">
+              <h2>Let's get you signed up! <i class="fa-solid fa-wine-glass"></i></h2>
               <label for="fname">First Name</label>
-              <input id="fname" name="first_name" type="text" required>
+              <input class="text-input" id="fname" name="first_name" type="text" required>
               
               <label for="lname">Last Name</label>
-              <input id="lname" name="last_name" type="text" required>
+              <input class="text-input" id="lname" name="last_name" type="text" required>
               
               <label for="email">Email Address</label>
-              <input type="email" id="email" name="email_address" required>
+              <input class="text-input" type="email" id="email" name="email_address" required>
               
               <label for="road">Spanish</label>
               <input type="radio" id="road" name="running_preference" value="road" required>
@@ -36,3 +56,5 @@
               <input class="join-button" type="submit" value="Let's Run!">
           </form>
     </form>
+
+</body>
