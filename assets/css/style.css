@@ -239,6 +239,7 @@ h1, h2, h3 {
         width: 100%;
         float: bottom;
         position: center;
+        padding: 2%;
         
 
     }
@@ -363,40 +364,32 @@ h1, h2, h3 {
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 
-    #menu{
+    .nav{
         clear: left;
         float: left;
         margin-left: 30px; 
         margin-bottom: 20px;
         line-height: 25px;
+        text-size: 50%;
     }
 
-    #cover-text{
-        left:0px;
+    .cover-text{
+        left: 0px;
     }
 
-    #club-ethos{
+    #upcoming-events-text{
         width:90%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading{
+    .events{
         width: inherit;
+        column-count: 1;
     }
 
-    .left-about-heading h2, .right-about-heading h2{
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p, .right-about-heading p{
-        text-align: center;
-        padding: 0 20px 0 20px;
-    }
-
-    #photo{
-        column-count: 3;
+    #photos{
+        column-count: 2;
     }
 }
 
