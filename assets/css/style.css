@@ -246,8 +246,6 @@ hr {
 img.flag {
     height: 50%;
     width: 100%;
-    float: bottom;
-    position: center;
     padding: 2%;
 
 
@@ -317,8 +315,7 @@ img.flag {
     text-align: center;
     font-size: 100%;
     background-color: #f16c6b;
-    color: #fafafa;
-    float: bottom;
+    color: #fafafa;  
     display: inline-block;
 
 }
@@ -385,8 +382,7 @@ img.flag {
         margin-bottom: 20px;
         line-height: 25px;
         text-align: center;
-        width: 100%;
-        float: center;
+        width: 100%;        
         display: block;
         column-count: 2;
     }
@@ -414,9 +410,9 @@ img.flag {
         height: 100%;
         width: 100%;
     }
-
-    /* For small screens sizes from 800px wide and down */
-    @media screen and (max-width: 800px) {
+}
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
         #photo {
             column-count: 2;
         }
@@ -431,7 +427,6 @@ img.flag {
             line-height: 25px;
             text-align: center;
             width: 100%;
-            float: center;
             display: block;
             column-count: 2;
         }
@@ -440,7 +435,7 @@ img.flag {
             height: 100%;
             width: 100%;
         }
-    }
+    
 
     .confirmation {
         font-size: 110%;
@@ -452,3 +447,4 @@ img.flag {
         margin: 0;
         padding: 0;
     }
+}
